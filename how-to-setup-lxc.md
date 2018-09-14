@@ -6,4 +6,5 @@ sudo iptables -t nat -A PREROUTING -m tcp -p tcp --dst host_ipv4 --dport 10022 -
 
 # set proxy for lxc
 lxc config set core.proxy_http http://localhost:3128
+
 lxc config set core.proxy_https http://localhost:3128

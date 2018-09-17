@@ -7,3 +7,26 @@ sudo iptables -t nat -A PREROUTING -m tcp -p tcp --dst host_ipv4 --dport 10022 -
 # set proxy for lxc
 lxc config set core.proxy_http http://localhost:3128  
 lxc config set core.proxy_https http://localhost:3128
+
+# Trouble shooting
+
+* if fail to start docker container
+
+```
+lxc launch ubuntu:x mydockers -c security.nesting=true
+```
+```
+lxc config set mydockers security.nesting true
+lxc restart mydockers
+```
+
+* if missing unix socket file for lxd
+
+```
+# search lxd or lxc package by dpkg command  
+dpkg -l | egrep 'lxd|lxc'
+
+# remove package by dpkg command, you might purge the package
+dpkg -r lxd
+dpkg -P lxd
+```

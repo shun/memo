@@ -1,0 +1,8 @@
+for cui boot
+$ sudo systemctl set-default multi-user.target
+
+for gui boot
+$ sudo systemctl set-default graphical.target
+
+use gui after cui boot
+$ sudo systemctl start lightdm

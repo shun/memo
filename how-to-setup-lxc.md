@@ -8,6 +8,9 @@ sudo iptables -t nat -A PREROUTING -m tcp -p tcp --dst host_ipv4 --dport 10022 -
 lxc config set core.proxy_http http://localhost:3128  
 lxc config set core.proxy_https http://localhost:3128
 
+# set port forwarding
+lxc config device add 'container name' 'device name' proxy listen=tcp:0.0.0.0:'host port' connect=tcp:localhost:'container port'
+
 # Trouble shooting
 
 * if fail to start docker container

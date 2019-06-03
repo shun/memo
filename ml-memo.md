@@ -11,7 +11,7 @@
 |サービス||
 |keras||
 |tensorflow||
-|YOLO||
+|YOLO|You only look once。検出サービス？|
 |CNN|Convolutional Neural Network。畳み込みニューラルネットワーク。画像認識や動体検知に使われる|
 |RNN|Recurrent Neural Network。再帰型ニューラルネットワーク。自然言語処理の分野で使われる。|
 |LSTM|Long Short Term Memory。RNNでこの情報は必要」と「この情報は必要じゃない」という判断ができるようになる。|

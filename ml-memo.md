@@ -19,5 +19,6 @@
 |cudnn|CUDA Deep Neural Network library|
 |ssd|Single Shot MultiBox Detector。物体検出用ネットワーク|
 |転移学習|浅い層について他の環境・他の学習データで学習した結果（各種パラメータ）を使い、深い層のパラメータだけ学習することで、他の環境で学習した優れた浅い層の特徴抽出精度を活用しつつ、短い学習時間で深い層のパラメータだけを学習することができる|
+|強化学習|Reinforcement Learning|
 |||
 

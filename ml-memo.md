@@ -1,6 +1,6 @@
 # About
 
-これは機械学習（Deep Learningもも含む）メモです。
+これは機械学習（Deep Learningも含む）メモです。
 
 # 辞書
 
@@ -15,8 +15,8 @@
 |Define and Run|計算処理を計算グラフとして一度構築し、その後まとめて計算処理をさせる処理。||
 |Chainer|機械学習フレームワーク。柔軟な計算グラフの構築が可能。||
 |keras|機械学習フレームワーク。とんでもなく簡単に計算グラフを記述可能。ディープラーニング用ラッパー（「Theano」や「TensorFlow」など）。||
-|tensorflow|機械学習フレームワーク。テンソル計算を行うためのライブラリ。TPUに最適化されているもの（？）||
-|PyTorch|機械学習フレームワーク。||
+|tensorflow|機械学習フレームワーク。テンソル計算を行うためのライブラリ。Google製。TPUに最適化されているもの（？）||
+|PyTorch|機械学習フレームワーク。Facebook製||
 |YOLO|You only look once。検出アルゴリズム。学習モデルデータを使用して物体検出するアルゴリズム||
 |ssd|Single Shot MultiBox Detector。物体検出用アルゴリズム||
 |CNN|Convolutional Neural Network。畳み込みニューラルネットワーク。画像認識や動体検知に使われる||

@@ -3,7 +3,7 @@ set -eu
 
 apt update
 apt upgrade -y
-apt install -y htop curl python python3 python-pip python3-pip python-dev python3-dev git
+apt install -y software-properties-common htop curl python python3 python-pip python3-pip python-dev python3-dev git
 curl -sSL https://get.docker.com | bash
 
 pip install docker-compose

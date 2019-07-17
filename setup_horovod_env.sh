@@ -13,11 +13,12 @@ apt update
 apt install -y nvidia-driver-410
 
 #cuda 10.0
-curl -sSL https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-repo-ubuntu1804_10.0.130-1_amd64.deb | dpkg -i 
+curl -L https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-repo-ubuntu1804_10.0.130-1_amd64.deb -o /tmp/cuda-repo-ubuntu1804_10.0.130-1_amd64.deb && dpkg -i /tmp/cuda-repo-ubuntu1804_10.0.130-1_amd64.deb
 apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pub
 
 #cuda 10.1
-#curl -sSL http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-repo-ubuntu1804_10.1.168-1_amd64.deb | dpkg -i 
+#curl -L http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-repo-ubuntu1804_10.1.168-1_amd64.deb -o /tmp/cuda-repo-ubuntu1804_10.1.168-1_amd64.deb && dpkg -i /tmp/cuda-repo-ubuntu1804_10.1.168-1_amd64.deb
 #apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pub
+
 apt-get update
 apt-get install cuda

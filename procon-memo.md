@@ -2,6 +2,9 @@
 
 これは競技プログラミングのメモです。
 
+# AtCoder stat
+https://atcoderstats.appspot.com
+
 # 辞書
 
 |単語|意味|備考|
